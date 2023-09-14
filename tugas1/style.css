@@ -1,0 +1,75 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #27374D;
+}
+
+p{
+    font-family: monospace;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #DDE6ED ;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: flex;
+}
+
+.container2{
+    flex: 1;
+    display: flex;
+    flex-wrap: flex;
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00cdec; /* Warna teks */
+}
+
+
+.content1-container1{
+    flex: 1;
+    position: absolute;
+    width: 50%;
+    top: 10rem;
+    left: 8rem;
+    /* margin-top: 4rem;
+    margin-left: 3rem; */
+}
+
+.language{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    list-style: none;
+    /* top: 16rem;
+    left: 8rem; */
+}
+
+.item{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(36, 34, 32);
+    border-radius: 7px;
+    padding: .5rem;
+    color: cadetblue;
+}
+
+.img1{
+    flex: 1;
+    position: absolute;
+    width: 30%;
+    top: 0;
+    right: 0;
+}
+
